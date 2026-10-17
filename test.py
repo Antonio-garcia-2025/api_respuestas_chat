@@ -1,6 +1,6 @@
 import pickle
 
-# 1. Cargamos el "cerebro" que acabas de crear
+# 1. Cargamos el "cerebro"
 # Usamos 'rb' que significa "read binary" (leer archivo binario)
 with open('modelo_nlp.pkl', 'rb') as file:
     modelo = pickle.load(file)
