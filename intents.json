@@ -22,7 +22,7 @@
     },
     {
       "tag": "carrito",
-      "patterns": ["como veo mi carrito", "donde pago", "eliminar un producto", "como comprar", "ver mis compras", "donde puedo pagar"],
+      "patterns": ["como veo mi carrito", "pagos", "donde pago", "eliminar un producto", "como comprar", "ver mis compras", "donde puedo pagar"],
       "responses": ["🛒 Para ver tus productos o pagar, haz clic en el icono del carrito en la esquina superior derecha de la pantalla. Allí podrás finalizar tu compra de forma segura."]
     },
     {
