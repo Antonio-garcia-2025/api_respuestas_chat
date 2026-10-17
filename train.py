@@ -35,5 +35,5 @@ with open('vectorizador.pkl', 'wb') as f:
 with open('modelo_nlp.pkl', 'wb') as f:
     pickle.dump(modelo, f)
 
-print("✅ ¡Entrenamiento completado con éxito!")
+print("¡Entrenamiento completado con éxito!")
 print("Se generaron los archivos 'modelo_nlp.pkl' y 'vectorizador.pkl' con el filtro de palabras activo.")
