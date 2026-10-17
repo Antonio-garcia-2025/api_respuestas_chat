@@ -3,7 +3,7 @@
     {
       "tag": "saludos",
       "patterns": ["hola", "buenos dias", "buenas tardes", "hay alguien", "hola bot", "que tal"],
-      "responses": ["¡Hola! Bienvenido a Mercado Shop 🛍️. ¿En qué te puedo ayudar hoy?"]
+      "responses": ["¡Hola! Bienvenido a Mercado Shop . ¿En qué te puedo ayudar hoy?"]
     },
     {
       "tag": "despedidas",
@@ -18,7 +18,7 @@
     {
       "tag": "envios",
       "patterns": ["cuanto cuesta el envio", "hacen entregas", "cuando llega mi paquete", "costo de envio", "envian a domicilio", "cuanto tarda"],
-      "responses": ["📦 Realizamos envíos a todo el país. El costo estándar es de $99, pero si tu compra supera los $500, ¡el envío es totalmente GRATIS! Tarda de 2 a 3 días hábiles."]
+      "responses": ["Realizamos envíos a todo el país. El costo estándar es de $99, pero si tu compra supera los $500, ¡el envío es totalmente GRATIS! Tarda de 2 a 3 días hábiles."]
     },
     {
       "tag": "carrito",
