@@ -31,11 +31,10 @@ def predecir(mensaje: Mensaje):
         probabilidades = modelo.predict_proba(X_nuevo)[0]
         max_prob = max(probabilidades)
 
-        # Umbral de seguridad (45%)
+        # Umbral de seguridad (30%)
         if max_prob < 0.30:
             return {"respuesta": "Lo siento, no entendí tu pregunta. ¿Podrías ser más específico?"}
 
-        # Buscar la respuesta correspondiente a la etiqueta predicha
         # Buscar la respuesta correspondiente a la etiqueta predicha
         for intent in datos["intents"]:
             if intent["tag"] == prediccion:
