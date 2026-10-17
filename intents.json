@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+      "tag": "saludos",
+      "patterns": ["hola", "buenos dias", "buenas tardes", "hay alguien", "hola bot", "que tal"],
+      "responses": ["¡Hola! Bienvenido a Mercado Shop 🛍️. ¿En qué te puedo ayudar hoy?"]
+    },
+    {
+      "tag": "despedidas",
+      "patterns": ["adios", "hasta luego", "bye", "nos vemos", "gracias adios", "gracias por tu ayuda"],
+      "responses": ["¡Gracias por visitar Mercado Shop! Vuelve pronto."]
+    },
+    {
+      "tag": "horarios",
+      "patterns": ["cual es su horario", "cuando abren", "cuando cierran", "horario de atencion", "horario de apertura"],
+      "responses": ["Nuestro horario de atención es de lunes a viernes de 9:00 a 18:00 y sábados de 10:00 a 14:00. ¡Estamos aquí para ayudarte!"]
+    },
+    {
+      "tag": "envios",
+      "patterns": ["cuanto cuesta el envio", "hacen entregas", "cuando llega mi paquete", "costo de envio", "envian a domicilio", "cuanto tarda"],
+      "responses": ["📦 Realizamos envíos a todo el país. El costo estándar es de $99, pero si tu compra supera los $500, ¡el envío es totalmente GRATIS! Tarda de 2 a 3 días hábiles."]
+    },
+    {
+      "tag": "carrito",
+      "patterns": ["como veo mi carrito", "donde pago", "eliminar un producto", "como comprar", "ver mis compras", "donde puedo pagar"],
+      "responses": ["🛒 Para ver tus productos o pagar, haz clic en el icono del carrito en la esquina superior derecha de la pantalla. Allí podrás finalizar tu compra de forma segura."]
+    },
+    {
+      "tag": "contacto_humano",
+      "patterns": ["quiero hablar con un humano", "necesito soporte real", "asesor", "persona real", "hablar con alguien"],
+      "responses": ["Entiendo. Puedes comunicarte con un asesor humano escribiendo a soporte@mercadoshop.com o llamando al 55-1234-5678 en horario de oficina."]
+    }
+    ,
+    {
+      "tag": "consultar_catalogo",
+      "patterns": ["que venden", "tienen productos", "mostrar catalogo", "que productos hay", "ver inventario"],
+      "responses": ["_DINAMICO_"]
+    }
+    
+  ]
+}
