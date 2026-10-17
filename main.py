@@ -32,7 +32,7 @@ def predecir(mensaje: Mensaje):
         max_prob = max(probabilidades)
 
         # Umbral de seguridad (30%)
-        if max_prob < 0.30:
+        if max_prob < 0.10:
             return {"respuesta": "Lo siento, no entendí tu pregunta. ¿Podrías ser más específico?"}
 
         # Buscar la respuesta correspondiente a la etiqueta predicha
